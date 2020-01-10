@@ -1,0 +1,109 @@
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+<div class="container">
+    <div class="example-container">
+        <!-- <mat-card class="find-room">TÌM PHÒNG, CĂN HỘ CHO THUÊ</mat-card> -->
+
+        <label class="w3-xlarge" style="font-family: Lobster, serif; text-align: center;padding-top: 5%">TÌM PHÒNG,
+            CĂN HỘ CHO THUÊ</label>
+        <mat-form-field>
+            <textarea matInput placeholder="Tìm kiếm theo tên đường,quận,địa điểm,..."></textarea>
+            <!-- <label class="control-label go-right" style="margin-bottom: 0px;margin-top: 5px;font-size:12px;">(Vd: Nguyễn Văn Linh, Đống Đa,...)</label> -->
+        </mat-form-field>
+
+        <label><b>Theo Mức Giá</b></label>
+        <ng5-slider [(value)]="value" [(highValue)]="highValue" [options]="options"></ng5-slider>
+        <!-- <mat-slider></mat-slider> -->
+
+        <label><b>Yêu cầu phòng </b></label>
+        <div class="room">
+            <table>
+                <tr>
+                    <td>
+                        <div class="bed-room" style="margin-right: 0px">
+                            <label><b>Phòng ngủ :</b> {{bedroom}} Room &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </label>
+                            <i class="material-icons" (click)="reductionbed()">remove_circle_outline</i>
+                            <i class="material-icons" (click)="increasebed()">add_circle</i>
+
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="bath-room" style="margin-right: 0px">
+                            <label><b>Phòng tắm :</b> {{bathroom}} Room &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </label>
+                            <i class="material-icons" (click)="reductionbath()">remove_circle_outline</i>
+                            <i class="material-icons" (click)="increasebath()">add_circle</i>
+
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <!-- 
+            <div class="bath-room" matSuffix>
+                <i class="material-icons">remove_circle_outline</i>
+                <i class="material-icons">add_circle</i>
+            </div> -->
+
+        </div>
+        <mat-form-field>
+            <!-- <label><b>Ngày nhận phòng</b></label> -->
+            <input matInput [matDatepicker]="picker" class="date" placeholder="Ngày nhận phòng" style="color: brown;">
+            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker startView="year" [startAt]="startDate"></mat-datepicker>
+        </mat-form-field>
+        <mat-form>
+            <mat-form-field class="parent">
+                <mat-label><b>Người lớn:</b></mat-label>
+                <mat-select [(value)]="parent">
+                    <mat-option value="1">1</mat-option>
+                    <mat-option value="2">2</mat-option>
+                    <mat-option value="3">3</mat-option>
+                    <mat-option value="4">4</mat-option>
+                    <mat-option value="5">5</mat-option>
+                </mat-select>
+            </mat-form-field>
+            <mat-form-field class="child">
+                <mat-label><b>Trẻ em:</b></mat-label>
+                <mat-select [(value)]="child">
+                    <mat-option value="0">0</mat-option>
+                    <mat-option value="1">1</mat-option>
+                    <mat-option value="2">2</mat-option>
+                    <mat-option value="3">3</mat-option>
+                </mat-select>
+            </mat-form-field>
+        </mat-form>
+
+        <p>Bạn đặt phòng cho: {{parent}} người lớn và {{child}} trẻ em</p>
+
+        <mat-accordion>
+            <mat-expansion-panel style="background-color: #f0fff099">
+                <mat-expansion-panel-header>
+                    <mat-panel-title style="color: sienna;">
+                        Thông tin người đặt phòng
+                    </mat-panel-title>
+                    <mat-panel-description>
+                        Tên và tuổi của bạn
+                    </mat-panel-description>
+                </mat-expansion-panel-header>
+
+                <mat-form-field>
+                    <input matInput placeholder="Tên của bạn">
+                </mat-form-field>
+
+                <mat-form-field>
+                    <input matInput placeholder="Tuổi">
+                </mat-form-field>
+            </mat-expansion-panel>
+        </mat-accordion>
+
+        <br>
+
+        <mat-chip-list aria-label="Fish selection" style="padding-bottom: 5%">
+            <mat-chip color="primary" selected>Search</mat-chip>
+        </mat-chip-list>
+
+    </div>
+</div>

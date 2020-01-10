@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cce57ce4-c6a5-41d7-883b-8ac01cc2d896" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../DN_CodeGym_JavaCore/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../furama/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../furama/src/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../furama/src/model/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../furama/src/model/Villa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../furama/src/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../furama/src/service/SwimmingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../furama/src/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../furama/src/service/impl/SwimmingServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/.idea/libraries/Maven__org_springframework_spring_aop_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/.idea/libraries/Maven__org_springframework_spring_beans_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/.idea/libraries/Maven__org_springframework_spring_context_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/.idea/libraries/Maven__org_springframework_spring_core_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/.idea/libraries/Maven__org_springframework_spring_expression_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/.idea/libraries/Maven__org_springframework_spring_test_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/advanced_object_oriented_design/advanced_object_oriented_design.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/array_and_method_in_java/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/array_and_method_in_java/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/array_and_method_in_java/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/array_and_method_in_java/array_and_method_in_java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/array_and_method_in_java/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/array_and_method_in_java/src/main/java/com/codegym/array_and_method_in_java/CountCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/array_and_method_in_java/src/main/java/com/codegym/array_and_method_in_java/CountStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/array_and_method_in_java/src/main/java/com/codegym/array_and_method_in_java/DeleteElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/array_and_method_in_java/src/main/java/com/codegym/array_and_method_in_java/FindStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/array_and_method_in_java/src/main/java/com/codegym/array_and_method_in_java/InsertNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/array_and_method_in_java/src/main/java/com/codegym/array_and_method_in_java/MainDiagonal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/array_and_method_in_java/src/main/java/com/codegym/array_and_method_in_java/MaxListNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/array_and_method_in_java/src/main/java/com/codegym/array_and_method_in_java/Max_2_DimensionalArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/array_and_method_in_java/src/main/java/com/codegym/array_and_method_in_java/MinArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/array_and_method_in_java/src/main/java/com/codegym/array_and_method_in_java/MinListNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/array_and_method_in_java/src/main/java/com/codegym/array_and_method_in_java/MineSweeper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/array_and_method_in_java/src/main/java/com/codegym/array_and_method_in_java/PoolingArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/array_and_method_in_java/src/main/java/com/codegym/array_and_method_in_java/ReverseArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/array_and_method_in_java/src/main/java/com/codegym/array_and_method_in_java/SumOf1Column.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/array_and_method_in_java/src/main/java/com/codegym/array_and_method_in_java/TemperatureTransfer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/array_and_method_in_java/src/test/java/com/codegym/array_and_method_in_java/ArrayAndMethodInJavaApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/class_and_object_in_java/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/class_and_object_in_java/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/class_and_object_in_java/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/class_and_object_in_java/class_and_object_in_java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/class_and_object_in_java/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/class_and_object_in_java/src/main/java/com/codegym/class_and_object_in_java/Fan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/class_and_object_in_java/src/main/java/com/codegym/class_and_object_in_java/QuadraticEquation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/class_and_object_in_java/src/main/java/com/codegym/class_and_object_in_java/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/class_and_object_in_java/src/main/java/com/codegym/class_and_object_in_java/StopWatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/class_and_object_in_java/src/test/java/com/codegym/class_and_object_in_java/ClassAndObjectInJavaApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/inheritance/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/inheritance/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/inheritance/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/inheritance/inheritance.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/inheritance/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/inheritance/src/main/java/com/codegym/inheritance/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/inheritance/src/main/java/com/codegym/inheritance/circleAndCylinder/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/inheritance/src/main/java/com/codegym/inheritance/circleAndCylinder/Cylinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/inheritance/src/main/java/com/codegym/inheritance/point2DAndPoint3D/Point2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/inheritance/src/main/java/com/codegym/inheritance/point2DAndPoint3D/Point3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/inheritance/src/main/java/com/codegym/inheritance/pointAndMoveablePoint/MoveAblePoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/inheritance/src/main/java/com/codegym/inheritance/pointAndMoveablePoint/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/inheritance/src/main/java/com/codegym/inheritance/systemOfGeometricObjects/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/inheritance/src/main/java/com/codegym/inheritance/systemOfGeometricObjects/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/inheritance/src/main/java/com/codegym/inheritance/systemOfGeometricObjects/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/inheritance/src/main/java/com/codegym/inheritance/systemOfGeometricObjects/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/inheritance/src/test/java/com/codegym/inheritance/InheritanceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/java-core.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/java-programming-language/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/java-programming-language/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/java-programming-language/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/java-programming-language/java-programming-language.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/java-programming-language/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/java-programming-language/src/main/java/com/codegym/javaprogramminglanguage/ApplicationToCalculateLoanInterest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/java-programming-language/src/main/java/com/codegym/javaprogramminglanguage/ApplicationToReadNumbersIntoWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/java-programming-language/src/main/java/com/codegym/javaprogramminglanguage/BodyWeightIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/java-programming-language/src/main/java/com/codegym/javaprogramminglanguage/CheckLeapYear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/java-programming-language/src/main/java/com/codegym/javaprogramminglanguage/CurrencyConversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/java-programming-language/src/main/java/com/codegym/javaprogramminglanguage/DeclareAndUseVariables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/java-programming-language/src/main/java/com/codegym/javaprogramminglanguage/DisplayOfGeometricTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/java-programming-language/src/main/java/com/codegym/javaprogramminglanguage/GreatestCommonDivisor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/java-programming-language/src/main/java/com/codegym/javaprogramminglanguage/HelloName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/java-programming-language/src/main/java/com/codegym/javaprogramminglanguage/NumberOfDaysOfAMonth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/java-programming-language/src/main/java/com/codegym/javaprogramminglanguage/RectangularArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/java-programming-language/src/main/java/com/codegym/javaprogramminglanguage/ShowPrimeNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/java-programming-language/src/main/java/com/codegym/javaprogramminglanguage/TheFirstEquation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/java-programming-language/src/test/java/com/codegym/javaprogramminglanguage/JavaProgrammingLanguageApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/01.JavaProgramming/114172/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01.JavaBackend/01.JavaProgramming/114172/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/01.JavaProgramming/114172/out/production/114172/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../01.JavaBackend/01.JavaProgramming/114172/out/production/114172/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/01.JavaProgramming/114172/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../01.JavaBackend/01.JavaProgramming/114172/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/01.JavaProgramming/114176/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01.JavaBackend/01.JavaProgramming/114176/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/01.JavaProgramming/BMI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01.JavaBackend/01.JavaProgramming/BMI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/01.JavaProgramming/Convert/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01.JavaBackend/01.JavaProgramming/Convert/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/01.JavaProgramming/Element/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01.JavaBackend/01.JavaProgramming/Element/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/01.JavaProgramming/Hello/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01.JavaBackend/01.JavaProgramming/Hello/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/01.JavaProgramming/InitVar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01.JavaBackend/01.JavaProgramming/InitVar/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/01.JavaProgramming/Perform/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01.JavaBackend/01.JavaProgramming/Perform/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/01.JavaProgramming/Perform/out/production/Perform/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../01.JavaBackend/01.JavaProgramming/Perform/out/production/Perform/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/01.JavaProgramming/Perform/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../01.JavaBackend/01.JavaProgramming/Perform/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/01.JavaProgramming/equation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01.JavaBackend/01.JavaProgramming/equation/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/01.JavaProgramming/menu/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01.JavaBackend/01.JavaProgramming/menu/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/02.JavaProgramming/sesion2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01.JavaBackend/02.JavaProgramming/sesion2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/12.JavaProgramming/ java-web-currency-converter-jsp/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/12.JavaProgramming/ java-web-currency-converter-jsp/.idea/artifacts/java_web_currency_converter_jsp_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/12.JavaProgramming/ java-web-currency-converter-jsp/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/12.JavaProgramming/ java-web-currency-converter-jsp/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/12.JavaProgramming/ java-web-currency-converter-jsp/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/12.JavaProgramming/ java-web-currency-converter-jsp/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/12.JavaProgramming/ java-web-currency-converter-jsp/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/12.JavaProgramming/ java-web-currency-converter-jsp/java-web-currency-converter-jsp.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/12.JavaProgramming/ java-web-currency-converter-jsp/out/artifacts/java_web_currency_converter_jsp_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/12.JavaProgramming/ java-web-currency-converter-jsp/out/artifacts/java_web_currency_converter_jsp_war_exploded/converter.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/12.JavaProgramming/ java-web-currency-converter-jsp/out/artifacts/java_web_currency_converter_jsp_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/12.JavaProgramming/ java-web-currency-converter-jsp/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/12.JavaProgramming/ java-web-currency-converter-jsp/web/converter.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/12.JavaProgramming/ java-web-currency-converter-jsp/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/12.JavaProgramming/ java-web-currency-converter/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/12.JavaProgramming/ java-web-currency-converter/.idea/artifacts/java_web_currency_converter_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/12.JavaProgramming/ java-web-currency-converter/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/12.JavaProgramming/ java-web-currency-converter/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/12.JavaProgramming/ java-web-currency-converter/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/12.JavaProgramming/ java-web-currency-converter/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/12.JavaProgramming/ java-web-currency-converter/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/12.JavaProgramming/ java-web-currency-converter/java-web-currency-converter.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/12.JavaProgramming/ java-web-currency-converter/out/artifacts/java_web_currency_converter_war_exploded/WEB-INF/classes/ConvertServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/12.JavaProgramming/ java-web-currency-converter/out/artifacts/java_web_currency_converter_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/12.JavaProgramming/ java-web-currency-converter/out/artifacts/java_web_currency_converter_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/12.JavaProgramming/ java-web-currency-converter/out/production/java-web-currency-converter/ConvertServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/12.JavaProgramming/ java-web-currency-converter/src/ConvertServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/12.JavaProgramming/ java-web-currency-converter/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/12.JavaProgramming/ java-web-currency-converter/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/13.JavaProgramming/java-web-mvc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01.JavaBackend/13.JavaProgramming/java-web-mvc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/14.JavaProgramming/convert-spring-mvc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01.JavaBackend/14.JavaProgramming/convert-spring-mvc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/15.JavaProgramming/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01.JavaBackend/15.JavaProgramming/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/15.JavaProgramming/caculator-spring-mvc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01.JavaBackend/15.JavaProgramming/caculator-spring-mvc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/15.JavaProgramming/emailvalidate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01.JavaBackend/15.JavaProgramming/emailvalidate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/15.JavaProgramming/emailvalidate/target/emailvalidate-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../01.JavaBackend/15.JavaProgramming/emailvalidate/target/emailvalidate-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/15.JavaProgramming/sandwich/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01.JavaBackend/15.JavaProgramming/sandwich/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/15.JavaProgramming/sandwich/out/artifacts/sandwich_war_exploded/WEB-INF/classes/codegym/controllers/sandwichController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../01.JavaBackend/15.JavaProgramming/sandwich/out/artifacts/sandwich_war_exploded/WEB-INF/classes/codegym/controllers/sandwichController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/15.JavaProgramming/sandwich/out/artifacts/sandwich_war_exploded/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../01.JavaBackend/15.JavaProgramming/sandwich/out/artifacts/sandwich_war_exploded/WEB-INF/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/15.JavaProgramming/sandwich/out/production/sandwich/META-INF/sandwich.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/15.JavaProgramming/sandwich/out/production/sandwich/codegym/controllers/sandwichController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../01.JavaBackend/15.JavaProgramming/sandwich/out/production/sandwich/codegym/controllers/sandwichController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/15.JavaProgramming/sandwich/src/codegym/controllers/sandwichController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../01.JavaBackend/15.JavaProgramming/sandwich/src/codegym/controllers/sandwichController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/15.JavaProgramming/sandwich/web/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../01.JavaBackend/15.JavaProgramming/sandwich/web/WEB-INF/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/15.JavaProgramming/spring-user-model/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01.JavaBackend/15.JavaProgramming/spring-user-model/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/17.JavaProgramming/customer-managment-mvc/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../01.JavaBackend/17.JavaProgramming/customer-managment-mvc/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/17.JavaProgramming/customer-managment-mvc/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../01.JavaBackend/17.JavaProgramming/customer-managment-mvc/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/17.JavaProgramming/customer-managment-mvc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01.JavaBackend/17.JavaProgramming/customer-managment-mvc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/17.JavaProgramming/customer-managment-mvc/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../01.JavaBackend/17.JavaProgramming/customer-managment-mvc/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/17.JavaProgramming/customer-managment-mvc/build/libs/customer-managment-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../01.JavaBackend/17.JavaProgramming/customer-managment-mvc/build/libs/customer-managment-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/17.JavaProgramming/customer-managment-mvc/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/classes/com/codegym/cms/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../01.JavaBackend/17.JavaProgramming/customer-managment-mvc/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/classes/com/codegym/cms/model/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/17.JavaProgramming/customer-managment-mvc/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/lib/byte-buddy-1.8.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/17.JavaProgramming/customer-managment-mvc/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/lib/classmate-1.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/17.JavaProgramming/customer-managment-mvc/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/lib/hibernate-commons-annotations-5.0.3.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/17.JavaProgramming/customer-managment-mvc/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/lib/hibernate-core-5.3.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/17.JavaProgramming/customer-managment-mvc/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/lib/jandex-2.0.3.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/17.JavaProgramming/customer-managment-mvc/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/lib/javassist-3.22.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/17.JavaProgramming/customer-managment-mvc/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/17.JavaProgramming/customer-managment-mvc/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/lib/mysql-connector-java-8.0.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/17.JavaProgramming/customer-managment-mvc/build/libs/exploded/customer-managment-1.0-SNAPSHOT.war/WEB-INF/lib/protobuf-java-2.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/17.JavaProgramming/customer-managment-mvc/out/production/classes/META-INF/customer-managment_main.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/17.JavaProgramming/customer-managment-mvc/out/production/classes/com/codegym/cms/controller/BlogController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/17.JavaProgramming/customer-managment-mvc/out/production/classes/com/codegym/cms/model/Blog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/17.JavaProgramming/customer-managment-mvc/out/production/classes/com/codegym/cms/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../01.JavaBackend/17.JavaProgramming/customer-managment-mvc/out/production/classes/com/codegym/cms/model/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/17.JavaProgramming/customer-managment-mvc/out/production/classes/com/codegym/cms/repository/BlogRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/17.JavaProgramming/customer-managment-mvc/out/production/classes/com/codegym/cms/repository/BlogRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/17.JavaProgramming/customer-managment-mvc/out/production/classes/com/codegym/cms/repository/CustomerRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/17.JavaProgramming/customer-managment-mvc/out/production/classes/com/codegym/cms/repository/Repository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/17.JavaProgramming/customer-managment-mvc/out/production/classes/com/codegym/cms/service/BlogService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/17.JavaProgramming/customer-managment-mvc/out/production/classes/com/codegym/cms/service/BlogServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/17.JavaProgramming/customer-managment-mvc/src/main/java/com/codegym/cms/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../01.JavaBackend/17.JavaProgramming/customer-managment-mvc/src/main/java/com/codegym/cms/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01.JavaBackend/17.JavaProgramming/customer-managment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01.JavaBackend/17.JavaProgramming/customer-managment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VScode/demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VScode/demo/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VScode/demo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VScode/demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VScode/demo/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VScode/demo/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VScode/demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VScode/demo/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VScode/demo/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VScode/demo/src/main/resources/db/abc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VScode/demo/src/main/resources/db/changelog/create10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VScode/demo/src/main/resources/db/changelog/sql/create.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VScode/demo/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c0219i1-airbnb/airbnb-dao/src/main/java/codegym/airbnb/dao/repository/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/c0219i1-airbnb/airbnb-dao/src/main/java/codegym/airbnb/dao/repository/AccountRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c0219i1-airbnb/airbnb-dao/src/main/java/codegym/airbnb/dao/repository/HouseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/c0219i1-airbnb/airbnb-dao/src/main/java/codegym/airbnb/dao/repository/HouseRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c0219i1-airbnb/airbnb-service/src/main/java/codegym/airbnb/services/service/BookingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/c0219i1-airbnb/airbnb-service/src/main/java/codegym/airbnb/services/service/BookingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c0219i1-airbnb/airbnb-service/src/main/java/codegym/airbnb/services/service/impl/BookingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/c0219i1-airbnb/airbnb-service/src/main/java/codegym/airbnb/services/service/impl/BookingServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c0219i1-airbnb/airbnb-webservice/src/main/java/codegym/airbnb/web/controller/BookingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/c0219i1-airbnb/airbnb-webservice/src/main/java/codegym/airbnb/web/controller/BookingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c0219i1-airbnb/airbnb-webservice/src/main/java/codegym/airbnb/web/controller/HouseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/c0219i1-airbnb/airbnb-webservice/src/main/java/codegym/airbnb/web/controller/HouseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c0219i1-airbnb/airbnb-webservice/src/main/java/codegym/airbnb/web/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/c0219i1-airbnb/airbnb-webservice/src/main/java/codegym/airbnb/web/security/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c0219i1-airbnb/airbnb-webservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/c0219i1-airbnb/airbnb-webservice/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/c0219i1-airbnb/airbnb-webservice/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="7" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/c0219i1-airbnb/airbnb-dao/src/main/java/codegym/airbnb/dao/entity/Customer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-120" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/c0219i1-airbnb/airbnb-dao/src/main/java/codegym/airbnb/dao/entity/Account.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-120" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/c0219i1-airbnb/airbnb-dao/src/main/java/codegym/airbnb/dao/entity/Booking.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-180" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/c0219i1-airbnb/airbnb-dao/src/main/java/codegym/airbnb/dao/entity/UpdatePassword.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="4" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/c0219i1-airbnb/airbnb-dao/src/main/java/codegym/airbnb/dao/entity/House.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-180" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/c0219i1-airbnb/airbnb-common/src/main/java/codegym/airbnb/common/DemoCommon.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/c0219i1-airbnb/airbnb-webservice/src/main/java/codegym/airbnb/web/AirbnbApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="9" selection-start-line="9" selection-end-line="13" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/c0219i1-airbnb/airbnb-common/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/c0219i1-airbnb/airbnb-configure/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/c0219i1-airbnb" />
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="y" value="45" />
+    <option name="width" value="981" />
+    <option name="height" value="1044" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="c0219i1-airbnb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="c0219i1-airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="airbnb-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="c0219i1-airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="airbnb-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="c0219i1-airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="airbnb-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="c0219i1-airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="airbnb-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="c0219i1-airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="airbnb-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="codegym" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="c0219i1-airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="airbnb-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="codegym" type="462c0819:PsiDirectoryNode" />
+              <item name="airbnb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="c0219i1-airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="airbnb-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="codegym" type="462c0819:PsiDirectoryNode" />
+              <item name="airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="c0219i1-airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="airbnb-configure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="c0219i1-airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="airbnb-dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="c0219i1-airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="airbnb-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="c0219i1-airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="airbnb-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="c0219i1-airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="airbnb-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="c0219i1-airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="airbnb-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="codegym" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="c0219i1-airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="airbnb-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="codegym" type="462c0819:PsiDirectoryNode" />
+              <item name="airbnb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="c0219i1-airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="airbnb-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="codegym" type="462c0819:PsiDirectoryNode" />
+              <item name="airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="c0219i1-airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="airbnb-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="codegym" type="462c0819:PsiDirectoryNode" />
+              <item name="airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="c0219i1-airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="airbnb-webservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="c0219i1-airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="airbnb-webservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="c0219i1-airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="airbnb-webservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="c0219i1-airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="airbnb-webservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="c0219i1-airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="airbnb-webservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="codegym" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="c0219i1-airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="airbnb-webservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="codegym" type="462c0819:PsiDirectoryNode" />
+              <item name="airbnb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="c0219i1-airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="airbnb-webservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="codegym" type="462c0819:PsiDirectoryNode" />
+              <item name="airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="c0219i1-airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="airbnb-webservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="codegym" type="462c0819:PsiDirectoryNode" />
+              <item name="airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="c0219i1-airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="airbnb-webservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="c0219i1-airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="airbnb-webservice" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cce57ce4-c6a5-41d7-883b-8ac01cc2d896" name="Default Changelist" comment="" />
+      <created>1565234116120</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565234116120</updated>
+      <workItem from="1565234118826" duration="1878000" />
+      <workItem from="1567052493843" duration="459000" />
+      <workItem from="1570086242291" duration="21000" />
+      <workItem from="1571123935503" duration="630000" />
+      <workItem from="1574064964489" duration="811000" />
+      <workItem from="1574067910333" duration="426000" />
+      <workItem from="1575859452271" duration="14000" />
+      <workItem from="1575860151053" duration="10000" />
+      <workItem from="1576039119054" duration="8000" />
+      <workItem from="1577429841003" duration="16000" />
+      <workItem from="1578272612664" duration="632000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4905000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="23" width="1295" height="704" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29554656" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="SonarLint" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.17732793" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/c0219i1-airbnb/airbnb-webservice/src/main/java/codegym/airbnb/web/controller/AccountController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="20" column="19" selection-start-line="18" selection-start-column="1" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c0219i1-airbnb/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c0219i1-airbnb/airbnb-common/src/main/java/codegym/airbnb/common/DemoCommon.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c0219i1-airbnb/airbnb-webservice/src/main/java/codegym/airbnb/web/AirbnbApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="9" selection-start-line="9" selection-end-line="13" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c0219i1-airbnb/airbnb-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c0219i1-airbnb/airbnb-configure/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c0219i1-airbnb/airbnb-dao/src/main/java/codegym/airbnb/dao/entity/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c0219i1-airbnb/airbnb-dao/src/main/java/codegym/airbnb/dao/entity/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c0219i1-airbnb/airbnb-dao/src/main/java/codegym/airbnb/dao/entity/Booking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c0219i1-airbnb/airbnb-dao/src/main/java/codegym/airbnb/dao/entity/UpdatePassword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c0219i1-airbnb/airbnb-dao/src/main/java/codegym/airbnb/dao/entity/House.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c0219i1-airbnb/airbnb-webservice/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>test</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

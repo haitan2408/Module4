@@ -1,0 +1,53 @@
+
+.example-container {    
+    margin-top: 10%;
+    border-radius: 20px;
+    margin-left: 1em;
+    margin-right: 1em;
+    display: flex;
+    flex-direction: column;
+    background-color: #5fb9f100;
+    color: sienna;
+    margin-bottom: 30px;
+}
+  .container {
+    position: relative;
+    border-radius: 20px;
+    width: 30%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #e6e6fa6e;
+}
+  .example-container > * {
+    width: 100%;
+  }
+  mat-slider {
+    width: 300px;
+  }
+  
+  .parent{
+      width: 50%;
+  }
+  .child{
+      width: 50%;
+  }
+  .date{
+      color: #ffffff;
+  }
+  .mat-form-field-flex {
+    display: inline-flex;
+    align-items: baseline;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: powderblue;
+}
+label {
+    cursor: pointer;
+}
+
+.mat-chip.mat-standard-chip.mat-chip-selected.mat-primary {
+    background-color: #6077f3;
+    color: #fff;
+}
